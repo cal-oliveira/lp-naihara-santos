@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Menu, Phone, Heart } from "lucide-react";
 import { useState } from "react";
+import { CallOnWhatsApp } from "../utils/functions";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -66,7 +67,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button variant="default" size="sm">
+            <Button onClick={CallOnWhatsApp} variant="default" size="sm">
               <Phone className="w-4 h-4 mr-2" />
               Agendar
             </Button>
