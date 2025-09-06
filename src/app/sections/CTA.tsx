@@ -47,31 +47,7 @@ const CTA = () => {
           </p>
         </div>
 
-        {/* <div className="grid lg:grid-cols-3 gap-8"> */}
         <div className="w-fit mx-auto">
-          {/* <div className="lg:col-span-1 space-y-6">
-            {contactInfo.map((info, index) => (
-              <Card key={index} className="shadow-card">
-                <CardContent className="p-6">
-                  <div className="flex items-start space-x-4">
-                    <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10 text-primary flex-shrink-0">
-                      {info.icon}
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground">
-                        {info.title}
-                      </h3>
-                      <p className="text-primary font-medium">{info.content}</p>
-                      <p className="text-sm text-muted-foreground">
-                        {info.description}
-                      </p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div> */}
-
           <div className="lg:col-span-2">
             <Card className="shadow-elegant">
               <CardHeader>
