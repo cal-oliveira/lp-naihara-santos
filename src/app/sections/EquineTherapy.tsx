@@ -14,7 +14,7 @@ export default function EquineTherapy() {
   ];
 
   return (
-    <section className="py-20 bg-background">
+    <section id="equoterapia" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Conteúdo textual */}

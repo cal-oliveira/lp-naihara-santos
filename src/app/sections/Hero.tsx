@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 import heroImage from "@/assets/hero-physiotherapist.jpg";
 
-const Hero = () => {
+export default function Hero(){
   return (
-    <section className="relative min-h-screen flex items-center bg-gradient-hero pt-16">
+    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-hero pt-16">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -74,4 +74,3 @@ const Hero = () => {
   );
 };
 
-export default Hero;

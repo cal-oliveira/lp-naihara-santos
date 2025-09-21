@@ -35,25 +35,25 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("inicio")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
             >
               Início
             </button>
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("servicos")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
             >
               Missão
             </button>
             <button
-              onClick={() => scrollToSection("depoimentos")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              onClick={() => scrollToSection("equoterapia")}
+              className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
             >
               Equoterapia
             </button>
@@ -66,8 +66,8 @@ const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button onClick={CallOnWhatsApp} variant="default" size="sm">
+          <div className="hidden md:block cursor-pointer">
+            <Button onClick={()=> scrollToSection("cta")} variant="default" size="sm">
               <Phone className="w-4 h-4 mr-2" />
               Agendar
             </Button>
@@ -104,7 +104,7 @@ const Header = () => {
               Missão
             </button>
             <button
-              onClick={() => scrollToSection("depoimentos")}
+              onClick={() => scrollToSection("equoterapia")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Equoterapia

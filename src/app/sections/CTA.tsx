@@ -7,7 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { CallOnWhatsApp } from "../utils/functions";
 
-const CTA = () => {
+export default function CTA(){
   const contactInfo = [
     {
       icon: <Phone className="h-6 w-6" />,
@@ -36,7 +36,7 @@ const CTA = () => {
   ];
 
   return (
-    <section className="py-20">
+    <section id="cta" className="py-20">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
@@ -57,4 +57,3 @@ const CTA = () => {
   );
 };
 
-export default CTA;
