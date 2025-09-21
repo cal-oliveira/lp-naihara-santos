@@ -37,7 +37,7 @@ export default function CTA(){
 
   return (
     <section id="cta" className="py-20">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto flex flex-col items-center justify-center px-4 h-screen">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
             Entre em <span className="text-primary">Contato</span>
