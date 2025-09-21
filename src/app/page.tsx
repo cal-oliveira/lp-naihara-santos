@@ -10,7 +10,6 @@ export default function Home() {
     <div className="container mx-auto">
       <Hero />
       <About />
-      {/* <Equaotherapy /> */}
       <EquineTherapy />
       <CTA />
     </div>
