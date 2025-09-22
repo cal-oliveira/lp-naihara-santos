@@ -7,7 +7,7 @@ export default function HeroMobile(){
     <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-hero">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 z-50 flex flex-col justify-around h-[500px] mt-[240px]">
+          <div className="space-y-8 z-40 flex flex-col justify-around h-[500px] mt-[240px]">
             <div className="space-y-4 max-w-2xs lg:w-full">
               <h1 className="text-3xl lg:text-6xl font-bold leading-tight">
                 <span className="text-[#FFFEFD]">Fisioterapia</span>
