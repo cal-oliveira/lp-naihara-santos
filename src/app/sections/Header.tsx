@@ -67,8 +67,8 @@ export default function Header(){
 
           {/* CTA Button */}
           <div className="hidden md:block cursor-pointer">
-            <Button onClick={()=> scrollToSection("cta")} variant="default" size="sm">
-              <Phone className="w-4 h-4 mr-2" />
+            <Button onClick={()=> scrollToSection("cta")} variant="default">
+              <Phone className="w-4 h-12 mr-2" />
               Agendar
             </Button>
           </div>
