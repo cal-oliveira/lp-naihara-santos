@@ -13,8 +13,8 @@ export default function HeroDesktop(){
                 <span className="text-primary">Fisioterapia</span>
                 <br />
                 <span className="text-black/65">Neuropediátrica</span>
-                <br />
-                <span className="text-black/40">Especializada</span>
+                {/* <br />
+                <span className="text-black/40">Especializada</span> */}
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
                 {/* Sou <strong>Naihara Santos</strong>, fisioterapeuta
