@@ -43,12 +43,13 @@ export default function CTA(){
             Entre em <span className="text-primary">Contato</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Vamos juntos apoiar o desenvolvimento do seu filho 💙
+            Vamos juntos apoiar o desenvolvimento do seu filho ? <br /> <br />
+            Entre em contato agora mesmo e descubra como a fisioterapia neuropediátrica e a equoterapia podem transformar a vida da sua criança.
           </p>
         </div>
 
-        <div className="w-fit mx-auto">
-          <Button onClick={CallOnWhatsApp} size="lg" className="w-fit">
+        <div className="w-fit mx-auto h-12">
+          <Button onClick={CallOnWhatsApp} size="lg" className="w-fit h-12 font-bold">
             Agendar consulta
           </Button>
         </div>
