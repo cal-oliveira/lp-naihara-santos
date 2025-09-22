@@ -115,8 +115,8 @@ export default function Header(){
             >
               Contato
             </button> */}
-            <Button variant="default" size="sm" className="w-full mt-4">
-              <Phone className="w-4 h-4 mr-2" />
+            <Button onClick={()=> scrollToSection("cta")} variant="default" className="w-full h-12 mt-4">
+              <Phone className="w-4 h-12 mr-2" />
               Agendar Consulta
             </Button>
           </div>
