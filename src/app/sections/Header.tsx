@@ -45,12 +45,12 @@ export default function Header(){
             >
               Sobre
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("servicos")}
               className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
             >
               Missão
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("equoterapia")}
               className="text-foreground hover:text-primary transition-colors font-medium cursor-pointer"
@@ -97,24 +97,24 @@ export default function Header(){
             >
               Sobre
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("servicos")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Missão
-            </button>
+            </button> */}
             <button
               onClick={() => scrollToSection("equoterapia")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Equoterapia
             </button>
-            <button
+            {/* <button
               onClick={() => scrollToSection("contato")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Contato
-            </button>
+            </button> */}
             <Button variant="default" size="sm" className="w-full mt-4">
               <Phone className="w-4 h-4 mr-2" />
               Agendar Consulta
