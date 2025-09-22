@@ -4,7 +4,7 @@ import heroImage from "@/assets/naihara2.jpg";
 
 export default function HeroDesktop(){
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-hero pt-16">
+    <section id="inicio" className="relative min-h-screen flex items-center bg-[#BFD7ED] pt-16">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">

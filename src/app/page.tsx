@@ -6,7 +6,7 @@ import EquineTherapy from "./sections/EquineTherapy";
 
 export default function Home() {
   return (
-    <div className="container mx-auto">
+    <div className="mx-auto">
       <Hero />
       <About />
       <EquineTherapy />
