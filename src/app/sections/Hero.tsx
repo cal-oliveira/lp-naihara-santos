@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
-import heroImage from "@/assets/hero-physiotherapist.jpg";
+import heroImage from "@/assets/naihara.jpg";
 
 export default function Hero(){
   return (
@@ -60,11 +60,11 @@ export default function Hero(){
 
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
-              {/* <img
-                src={heroImage}
+              <img
+                src={heroImage.src}
                 alt="Naihara Santos - Fisioterapeuta Neuropediatra"
                 className="w-full h-auto object-cover"
-              /> */}
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
           </div>
