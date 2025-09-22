@@ -5,7 +5,7 @@ import { Menu, Phone, Heart } from "lucide-react";
 import { useState } from "react";
 import { CallOnWhatsApp } from "../utils/functions";
 
-const Header = () => {
+export default function Header(){
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
@@ -125,5 +125,3 @@ const Header = () => {
     </header>
   );
 };
-
-export default Header;
