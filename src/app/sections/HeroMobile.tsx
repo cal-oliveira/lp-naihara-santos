@@ -18,7 +18,7 @@ export default function HeroMobile(){
   setIsMenuOpen(false)
 }
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-hero">
+    <section id="inicio-mobile" className="relative min-h-screen flex items-center bg-gradient-hero">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 z-40 flex flex-col justify-around h-[500px] mt-[240px]">

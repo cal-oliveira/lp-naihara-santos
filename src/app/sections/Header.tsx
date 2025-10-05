@@ -88,7 +88,7 @@ export default function Header(){
         {isMenuOpen && (
           <div className="md:hidden py-4 space-y-4 border-t border-border/40">
             <button
-              onClick={() => scrollToSection("inicio")}
+              onClick={() => scrollToSection("inicio-mobile")}
               className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
             >
               Início
