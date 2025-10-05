@@ -4,7 +4,7 @@ import heroImage from "@/assets/naihara2.jpg";
 
 export default function HeroDesktop(){
   return (
-    <section id="inicio" className="relative min-h-screen flex items-center bg-[#BFD7ED] pt-16">
+    <section id="inicio" className="relative h-screen min-h-screen flex items-center bg-[#BFD7ED] pt-16">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -59,11 +59,11 @@ export default function HeroDesktop(){
           </div>
 
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden shadow-elegant">
+            <div className="relative rounded-2xl overflow-hidden shadow-elegant mx-auto xl:w-fit">
               <img
                 src={heroImage.src}
                 alt="Naihara Santos - Fisioterapeuta Neuropediatra"
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-cover mx-auto xl:h-[700px] xl:w-fit xl:object-contain"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
