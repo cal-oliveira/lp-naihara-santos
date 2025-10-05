@@ -19,7 +19,7 @@ export default function HeroDesktop(){
     };
 
   return (
-    <section id="inicio" className="relative h-screen min-h-screen flex items-center pt-16 bg-gradient-to-b from-[#edf0fe] via-[#d3dbfe] to-[#a9bafc]">
+    <section id="inicio" className="relative h-screen min-h-screen flex items-center pt-16 bg-gradient-to-r from-[#a9bafc] to-transparent">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
