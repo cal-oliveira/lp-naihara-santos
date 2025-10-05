@@ -32,13 +32,7 @@ export default function HeroDesktop(){
                 <span className="text-black/40">Especializada</span> */}
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-xl">
-                {/* Sou <strong>Naihara Santos</strong>, fisioterapeuta
-                especializada em neuropediatria, cristã, casada e mãe. Aos 40
-                anos, transformei minha missão de vida em profissão: cuidar de
-                crianças com amor, técnica e esperança. Acredito que cada
-                criança tem um potencial único, e meu trabalho é apoiar esse
-                processo de desenvolvimento de forma humanizada. */}
-                Olá, sou Naihara Santos e ajudo a cuidar do amor da sua vida
+                Fisioterapeuta especializada em neuropediatria e equoterapia, unindo ciência e empatia no cuidado com cada criança.
               </p>
             </div>
 
