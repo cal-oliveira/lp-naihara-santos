@@ -69,7 +69,7 @@ export default function Header(){
           <div className="hidden md:block cursor-pointer">
             <Button onClick={()=> scrollToSection("cta")} variant="default">
               <Phone className="w-4 h-12 mr-2" />
-              Agendar
+              Entrar em contato
             </Button>
           </div>
 
@@ -117,7 +117,7 @@ export default function Header(){
             </button> */}
             <Button onClick={()=> scrollToSection("cta")} variant="default" className="w-full h-12 mt-4">
               <Phone className="w-4 h-12 mr-2" />
-              Agendar Consulta
+              Entrar em contato
             </Button>
           </div>
         )}

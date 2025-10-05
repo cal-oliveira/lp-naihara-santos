@@ -68,25 +68,25 @@ export default function About(){
 
         <div className="mt-16 bg-gradient-card rounded-2xl p-8 lg:p-12 shadow-card">
           <div className="grid lg:grid-cols-2 gap-8 items-center">
-            <div className="space-y-6">
+            <div className="space-y-6 bg-[#a9bafc] rounded-lg p-4">
               <h3 className="text-3xl font-bold text-foreground">
                 Minha <span className="text-pretty">Missão</span>
               </h3>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-[#031b46] leading-relaxed">
                 Acredito que cada criança tem potencial único para se
                 desenvolver. Meu trabalho é proporcionar o ambiente e as
                 técnicas adequadas para que esse potencial seja descoberto e
                 estimulado, sempre respeitando o ritmo individual de cada
                 pequeno paciente.
               </p>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-[#031b46] leading-relaxed">
                 Trabalho em estreita colaboração com as famílias, oferecendo não
                 apenas tratamento especializado, mas também orientação e suporte
                 emocional durante toda a jornada terapêutica.
               </p>
             </div>
             <div className="space-y-4">
-              <div className="bg-primary/5 rounded-lg p-4">
+              <div className=" rounded-lg p-4 bg-[#d3dbfe]">
                 <h4 className="font-semibold text-primary mb-2">
                   Especialidades
                 </h4>
@@ -97,7 +97,7 @@ export default function About(){
                   <li>• Distúrbios Neurológicos</li>
                 </ul>
               </div>
-              <div className="bg-secondary/5 rounded-lg p-4">
+              <div className=" rounded-lg p-4 bg-[#d3dbfe]">
                 <h4 className="font-semibold text-pretty mb-2">
                   Técnicas Utilizadas
                 </h4>

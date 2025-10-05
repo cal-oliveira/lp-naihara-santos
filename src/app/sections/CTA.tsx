@@ -36,8 +36,8 @@ export default function CTA(){
   ];
 
   return (
-    <section id="cta" className="py-20">
-      <div className="container mx-auto flex flex-col items-center justify-center px-4 h-screen">
+    <section id="cta" className="py-20 bg-[#BFD7ED]">
+      <div className="container mx-auto flex flex-col items-center justify-center px-4 h-[500px]">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
             Entre em <span className="text-primary">Contato</span>
@@ -50,7 +50,7 @@ export default function CTA(){
 
         <div className="w-fit mx-auto h-12">
           <Button onClick={CallOnWhatsApp} size="lg" className="w-fit h-12 font-bold">
-            Agendar consulta
+            Entrar em contato
           </Button>
         </div>
       </div>

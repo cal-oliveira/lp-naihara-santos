@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
-import equoterapiaImage from "@/assets/equoterapia-1.jpg";
+import equoterapiaImage from "@/assets/equoterapia-3.png";
 
 export default function EquineTherapy() {
   const benefits = [
