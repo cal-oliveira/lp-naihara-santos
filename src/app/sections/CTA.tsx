@@ -38,7 +38,7 @@ export default function CTA(){
   ];
 
   return (
-    <section id="cta" className="py-20 bg-[#BFD7ED]">
+    <section id="cta" className="py-20 bg-gradient-to-br from-[#a9bafc] via-[#d3dbfe] to-[#819efb]">
       <div className="container mx-auto flex flex-col items-center justify-center px-4 h-[500px]">
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground">
