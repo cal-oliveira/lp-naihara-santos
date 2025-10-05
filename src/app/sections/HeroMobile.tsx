@@ -1,9 +1,22 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/naihara3.jpg";
 import WhatsappIcon from "@/assets/whatsapp.svg"
 import Image from "next/image";
+import { useState } from "react";
 
 export default function HeroMobile(){
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  function ScrollToSection(section:string){  
+  const element = document.getElementById(section)
+  if(element){
+    element.scrollIntoView({ behavior: "smooth"})
+  }
+
+  setIsMenuOpen(false)
+}
   return (
     <section id="inicio" className="relative min-h-screen flex items-center bg-gradient-hero">
       <div className="container mx-auto px-4 py-20">
@@ -29,7 +42,7 @@ export default function HeroMobile(){
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group h-12 font-bold">
+              <Button size="lg" className="group h-12 font-bold" onClick={()=> ScrollToSection('cta')}>
                 Entrar em contato
                 <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
               </Button>
