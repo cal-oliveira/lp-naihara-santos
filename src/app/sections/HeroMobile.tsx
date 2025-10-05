@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Phone } from "lucide-react";
 import heroImage from "@/assets/naihara3.jpg";
+import WhatsappIcon from "@/assets/whatsapp.svg"
+import Image from "next/image";
 
 export default function HeroMobile(){
   return (
@@ -30,7 +31,7 @@ export default function HeroMobile(){
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="group h-12 font-bold">
                 Entrar em contato
-                <Phone className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
               </Button>
               {/* <Button variant="outline" size="lg">
                 <Phone className="mr-2" />

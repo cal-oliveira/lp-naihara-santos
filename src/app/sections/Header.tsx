@@ -1,7 +1,9 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
-import { Menu, Phone, Heart } from "lucide-react";
+import Image from "next/image";
+import { Menu, Heart } from "lucide-react";
+import WhatsappIcon from "@/assets/whatsapp.svg";
 import { useState } from "react";
 import { CallOnWhatsApp } from "../utils/functions";
 
@@ -67,9 +69,9 @@ export default function Header(){
 
           {/* CTA Button */}
           <div className="hidden md:block cursor-pointer">
-            <Button onClick={()=> scrollToSection("cta")} variant="default">
-              <Phone className="w-4 h-12 mr-2" />
+            <Button onClick={()=> scrollToSection("cta")} variant="default" className="h-11 font-bold">
               Entrar em contato
+              <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
             </Button>
           </div>
 
@@ -115,9 +117,9 @@ export default function Header(){
             >
               Contato
             </button> */}
-            <Button onClick={()=> scrollToSection("cta")} variant="default" className="w-full h-12 mt-4">
-              <Phone className="w-4 h-12 mr-2" />
+            <Button onClick={()=> scrollToSection("cta")} variant="default" className="w-full h-12 mt-4 font-bold">
               Entrar em contato
+              <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
             </Button>
           </div>
         )}

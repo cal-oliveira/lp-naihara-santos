@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 import heroImage from "@/assets/naihara2.jpg";
+import WhatsappIcon from "@/assets/whatsapp.svg"
+import Image from "next/image";
 
 export default function HeroDesktop(){
   return (
@@ -28,9 +30,9 @@ export default function HeroDesktop(){
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group">
+              <Button size="lg" className="group h-11 font-bold">
                 Entrar em contato
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
               </Button>
               {/* <Button variant="outline" size="lg">
                 <Phone className="mr-2" />

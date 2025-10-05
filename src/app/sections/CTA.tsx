@@ -6,6 +6,8 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { CallOnWhatsApp } from "../utils/functions";
+import WhatsappIcon from "@/assets/whatsapp.svg"
+import Image from "next/image";
 
 export default function CTA(){
   const contactInfo = [
@@ -51,6 +53,7 @@ export default function CTA(){
         <div className="w-fit mx-auto h-12">
           <Button onClick={CallOnWhatsApp} size="lg" className="w-fit h-12 font-bold">
             Entrar em contato
+            <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
           </Button>
         </div>
       </div>
