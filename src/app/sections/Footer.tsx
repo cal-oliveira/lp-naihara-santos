@@ -50,13 +50,13 @@ const Footer = () => {
                 <span>Florianópolis - SC</span>
               </div>
             </div>
-            <div className="pt-4">
+            {/* <div className="pt-4">
               <p className="text-sm text-background/60">
                 Seg - Sex: 8h às 18h
                 <br />
                 Sáb: 8h às 14h
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
 
