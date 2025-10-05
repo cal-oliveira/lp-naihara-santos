@@ -37,7 +37,7 @@ export default function HeroMobile(){
                 crianças com amor, técnica e esperança. Acredito que cada
                 criança tem um potencial único, e meu trabalho é apoiar esse
                 processo de desenvolvimento de forma humanizada. */}
-                Olá, sou Naihara Santos e ajudo a cuidar do amor da sua vida
+                Fisioterapeuta especializada em neuropediatria e equoterapia, unindo ciência e empatia no cuidado com cada criança.
               </p>
             </div>
 
