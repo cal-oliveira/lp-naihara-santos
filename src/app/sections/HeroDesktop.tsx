@@ -1,12 +1,25 @@
+"use client"
+
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Phone } from "lucide-react";
 import heroImage from "@/assets/naihara2.jpg";
 import WhatsappIcon from "@/assets/whatsapp.svg"
 import Image from "next/image";
+import { useState } from "react";
 
 export default function HeroDesktop(){
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  
+    const scrollToSection = (sectionId: string) => {
+      const element = document.getElementById(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+      setIsMenuOpen(false);
+    };
+
   return (
-    <section id="inicio" className="relative h-screen min-h-screen flex items-center bg-[#BFD7ED] pt-16">
+    <section id="inicio" className="relative h-screen min-h-screen flex items-center pt-16 bg-gradient-to-b from-[#edf0fe] via-[#d3dbfe] to-[#a9bafc]">
       <div className="container mx-auto px-4 py-20">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
@@ -30,7 +43,7 @@ export default function HeroDesktop(){
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group h-11 font-bold">
+              <Button size="lg" className="group h-11 font-bold cursor-pointer" onClick={()=> scrollToSection('cta')}>
                 Entrar em contato
                 <Image src={WhatsappIcon} alt="Whatsapp Icon" width={16} height={16} className="mr-2" />
               </Button>
