@@ -25,12 +25,9 @@ const Footer = () => {
               Especialidades
             </h4>
             <ul className="space-y-2 text-background/80">
-              <li>• autismo</li>
-              <li>• autismo</li>
-              <li>• autismo</li>
-              <li>• autismo</li>
-              <li>• autismo</li>
-              <li>• autismo</li>
+              <li>• Fisioterapia</li>
+              <li>• Neuropediatria</li>
+              <li>• Equoterapia</li>
             </ul>
           </div>
 
