@@ -30,14 +30,14 @@ export default function HeroMobile(){
                 {/* <br />
                 <span className="text-black/40">Especializada</span> */}
               </h1>
-              <p className="text-xl text-[#F9F5EA] leading-relaxed max-w-xl">
+              <p className="text-base text-[#F9F5EA] max-w-xl leading-tight">
                 {/* Sou <strong>Naihara Santos</strong>, fisioterapeuta
                 especializada em neuropediatria, cristã, casada e mãe. Aos 40
                 anos, transformei minha missão de vida em profissão: cuidar de
                 crianças com amor, técnica e esperança. Acredito que cada
                 criança tem um potencial único, e meu trabalho é apoiar esse
                 processo de desenvolvimento de forma humanizada. */}
-                Fisioterapeuta especializada em neuropediatria e equoterapia, unindo ciência e empatia no cuidado com cada criança.
+                Fisioterapeuta especializada unindo ciência e empatia no cuidado com cada criança.
               </p>
             </div>
 
