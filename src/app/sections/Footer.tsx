@@ -14,10 +14,10 @@ const Footer = () => {
               desenvolvimento motor e neurológico de crianças com amor e
               profissionalismo.
             </p>
-            <div className="flex items-center text-primary-glow">
+            {/* <div className="flex items-center text-primary-glow">
               <Heart className="h-4 w-4 mr-2" />
               <span className="text-sm">Cuidando com carinho desde 2024</span>
-            </div>
+            </div> */}
           </div>
 
           <div className="space-y-4">
